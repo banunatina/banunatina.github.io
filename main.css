@@ -26,6 +26,7 @@ html .content span, body .content span {
 span {
   margin: 0 0.2rem;
 }
+
 a {
   text-decoration: none;
   color: #888;
@@ -39,7 +40,27 @@ a:hover {
           transition: font-weight 0.5s ease, color 0.5s ease;
 }
 
-h3 {
+ h3 {
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #16CAF4 50%);
+  background-position: -0% 0; 
+  color: white;  
   font-size: 14px;
-  color: #aaa;
+  font-style: italic;
+  font-variant: small-caps;
+  margin-top: 10px;
+  padding: 5px 0;
+  opacity: 0;
+  text-align: center;
+
+  -webkit-transition: opacity 0.5s ease,
+                      background-position 0.5s ease;
+  transition: opacity 0.5s ease,
+    background-position 0.5s ease;
+}
+
+.random:hover h3{
+  opacity: 1;
+  background-position: -99.99% 0;
+  transition-delay: 1.2s;
 }
