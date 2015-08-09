@@ -130,7 +130,7 @@ main img {
 
 header {
 	/*"http://i.imgur.com/e5qeWoS.jpg"*/
-	background: navy url("http://i.imgur.com/hZ9YZts.jpg") center 40% no-repeat fixed;
+	background: #001626 url("http://i.imgur.com/hZ9YZts.jpg") center 40% no-repeat fixed;
 	min-height: 400px;
 	height: 625px;
 }
