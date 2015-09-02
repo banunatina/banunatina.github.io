@@ -1,0 +1,39 @@
+html {
+  background-color: #ABC18D;
+}
+
+#board {
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #414934;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  margin: 2px auto;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #414934;
+  text-align: center;
+  margin: 6px 0;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #414934;
+  text-align: center;
+}
+
+td {
+    width: 15px;
+    height: 15px;
+    border: 1.3px solid #414934;
+    box-shadow: 2px 1.5px rgba(0, 0, 0, 0.2)
+}
